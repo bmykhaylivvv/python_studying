@@ -14,7 +14,6 @@ class Dog:
     def speak(self, sound):
         return f'{self.name} says {sound}'
 
-    
 
 lord = Dog('Lord', 5)
 jack = Dog('Jack', 11)
@@ -23,6 +22,3 @@ print(jack)
 print()
 
 print(lord.speak('Wow'))
-
-
-

@@ -13,15 +13,16 @@ class Dog:
 
 
 class JackRussellTerrier(Dog):
-     def speak(self, sound="Arf"):
+    def speak(self, sound="Arf"):
         return super().speak(sound)
+
 
 class Dachshund(Dog):
     pass
 
+
 class Bulldog(Dog):
     pass
-
 
 
 miles = JackRussellTerrier("Miles", 4)
@@ -33,4 +34,3 @@ jim = Bulldog("Jim", 5)
 print(buddy.speak('hihihi'))
 
 print(miles.speak())
-
