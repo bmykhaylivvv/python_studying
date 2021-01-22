@@ -9,7 +9,7 @@ class Car(Vehicle):
         self.make = make
         self.model = model
         self.horsepower = horsepower
-        super(Car, self ).__init__(category, color, paint_thickness)
+        super(Car, self).__init__(category, color, paint_thickness)
 
     def quality_check(self):
         if 80 < self.paint_thickness < 99 and 244 < self.horsepower < 399:
